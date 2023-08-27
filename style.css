@@ -1,0 +1,58 @@
+/*map */
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0 }
+
+label 
+{
+    font: 12px/14px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+span {
+   font: 12px Arial, Helvetica, sans-serif;
+   color:#333333;
+}
+.text 
+{
+    border: 1px solid black;
+    width:180px;    
+}
+
+#container {width:1000px;height:600px; margin:10px;}      
+#map_canvas 
+{
+    float:left;
+    width:750px;
+    height:100%;
+}
+#sidebar 
+{
+    float:right;    
+    width: 247px;
+    height: 100%;
+    background: white;
+    border: 0px solid #DDD;
+    overflow: auto;
+    overflow-x: hidden;
+    z-index: 30;
+    box-shadow: -1px 1px 3px -1px #000;
+	
+}
+           
+.shadow {
+   -moz-box-shadow:    1px 1px 3px 1px #424345;
+   -webkit-box-shadow: 1px 1px 3px 1px #424345;
+   box-shadow:         1px 1px 3px 1px #424345;
+}          
+
+.row{padding:10px;}
+
+.separator 
+{
+   width: 96%;
+   height:1px;
+   margin:0 auto;
+   border-bottom:1px solid black;
+}
+
+
+/*map */        
